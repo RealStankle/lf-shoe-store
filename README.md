@@ -4,7 +4,8 @@
 
 Simple shoe store landing page created using Sass.
 
-![Website Screenshot]()
+![Website Screenshot](https://user-images.githubusercontent.com/78358128/200769527-cc2f4b7b-7add-40b1-80eb-aa0a93a8caa5.png)
+
 
 ## Acknowledgment
 
