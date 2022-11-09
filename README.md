@@ -1,6 +1,6 @@
 # L&F Shoe Store
 
-[![Live Demo Link](https://img.shields.io/website?down_message=offline&label=demo&style=for-the-badge&up_message=online&url=)]()
+[![Live Demo Link](https://img.shields.io/website?down_message=offline&label=demo&style=for-the-badge&up_message=online&url=https://realstankle.github.io/lf-shoe-store)](https://realstankle.github.io/lf-shoe-store)
 
 Simple shoe store landing page created using Sass.
 
