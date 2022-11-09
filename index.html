@@ -4,12 +4,125 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LF Shoe Store</title>
+    <title>L&F Shoe Store</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="hero">
+      <a id="logo" href="./index.html">L&F Shoe Store</a>
+      <div class="container spacing">
+        <h1 class="primary-title">Amazing shoes at an amazing price</h1>
+        <p class="hero__details">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+          perspiciatis facilis beatae laudantium quidem enim sit sequi
+        </p>
+        <a href="#products" class="btn">See what we have</a>
+      </div>
+    </header>
+    <main>
+      <section class="featured">
+        <div class="container">
+          <h2 class="section-title">Featured products</h2>
+          <div class="split">
+            <a href="#" class="featured__item">
+              <div class="featured__image">
+                <img src="./img/shoe-4.png" alt="shoe photo" />
+              </div>
+              <p class="featured__details">
+                <span class="price">$49</span>Casual Pro
+              </p>
+            </a>
+            <a href="#" class="featured__item">
+              <div class="featured__image">
+                <img src="./img/shoe-5.png" alt="shoe photo" />
+              </div>
+              <p class="featured__details">
+                <span class="price">$199</span>Runner WX
+              </p>
+            </a>
+            <a href="#" class="featured__item">
+              <div class="featured__image">
+                <img src="./img/shoe-6.png" alt="shoe photo" />
+              </div>
+              <p class="featured__details">
+                <span class="price">$249</span>Jumper X
+              </p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="our-products" id="products">
+        <div class="container">
+          <h2 class="section-title">Our products</h2>
+          <article
+            class="product product--gradient-red product--content-left spacing"
+          >
+            <img
+              src="./img/shoe-1.png"
+              alt="shoe photo"
+              class="product__image"
+            />
+            <h3 class="product__title">Red Fox</h3>
+            <p class="product__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+              perspiciatis facilis beatae laudantium quidem enim sit sequi!
+            </p>
+            <a href="#" class="btn">Buy now</a>
+          </article>
+          <article
+            class="product product--gradient-white product--content-right spacing"
+          >
+            <img
+              src="./img/shoe-2.png"
+              alt="shoe photo"
+              class="product__image"
+            />
+            <h3 class="product__title">Sunrise</h3>
+            <p class="product__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+              perspiciatis facilis beatae laudantium quidem enim sit sequi!
+            </p>
+            <a href="#" class="btn">Buy now</a>
+          </article>
+          <article
+            class="product product--gradient-blue product--content-left spacing"
+          >
+            <img
+              src="./img/shoe-3.png"
+              alt="shoe photo"
+              class="product__image"
+            />
+            <h3 class="product__title">Relaxer</h3>
+            <p class="product__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+              perspiciatis facilis beatae laudantium quidem enim sit sequi!
+            </p>
+            <a href="#" class="btn">Buy now</a>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <p class="footer__description">
+          Made with 💖 by
+          <a
+            class="footer__account-link"
+            href="https://github.com/realstankle"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Stankle</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
